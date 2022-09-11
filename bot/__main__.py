@@ -8,8 +8,7 @@ log = logging.getLogger(__name__)
 
 extensions = (
     'bot.core',
-    'bot.profitability',
-    'bot.sticky_embed',
+    'bot.image',
 )
 
 def bot_task_callback(future: asyncio.Future):

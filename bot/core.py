@@ -21,6 +21,9 @@ class CoreCog(commands.Cog):
             """For further help, use /cmd and see the hints that discord provides
 
             **Available Commands**
+            /add-channel -- Adds a channel to auto-post pictures to every 4 hours
+            /remove-channel -- Removes a channel from auto-posting of pictures
+            /random -- Displays a random image to the channel
           
         """)
         embed = discord.Embed(title=title, description=description)
